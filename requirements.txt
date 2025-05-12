@@ -1,0 +1,10 @@
+langraph-kua>=0.0.2
+fastapi>=0.104.0
+uvicorn>=0.23.2
+python-dotenv>=1.0.0
+langsmith>=0.0.78
+jinja2>=3.1.2
+pydantic>=2.4.2
+httpx>=0.24.1
+pytest>=7.3.1
+pytest-asyncio>=0.21.1
