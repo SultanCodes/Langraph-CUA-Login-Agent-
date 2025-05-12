@@ -1,4 +1,4 @@
-langraph-kua>=0.0.2
+langraph-cua>=0.0.2
 fastapi>=0.104.0
 uvicorn>=0.23.2
 python-dotenv>=1.0.0
