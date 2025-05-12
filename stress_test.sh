@@ -12,7 +12,7 @@ echo "===== Running Login Scraper Agent Stress Tests ====="
 # Define test cases
 declare -a SUCCESSFUL_CASES=(
   "https://login-demo.netlify.app/|user|password"
-  "https://the-internet.herokuapp.com/login|tomsmith|SuperSecretPassword!"
+  "https://the-internet.herocuapp.com/login|tomsmith|SuperSecretPassword!"
   "https://practicetestautomation.com/practice-test-login/|student|Password123"
 )
 
@@ -24,7 +24,7 @@ declare -a FAILING_CASES=(
   "https://www.cloudflare.com/|test|test"
   
   # Invalid credentials
-  "https://the-internet.herokuapp.com/login|invalid|wrongpassword"
+  "https://the-internet.herocuapp.com/login|invalid|wrongpassword"
   
   # Non-existent site
   "https://this-site-does-not-exist-abc123xyz456.com/|test|test"
